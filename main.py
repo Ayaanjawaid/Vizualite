@@ -3,7 +3,8 @@ import streamlit as st
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-st.title('Easy Data Viz')
+st.set_page_config(page_title="Vizualite", page_icon="📊")
+st.title('Vizualite: Vizualization made easier.')
 # File upload
 uploaded_file = st.file_uploader("Upload CSV or Excel file", type=["csv", "xlsx"])
 
