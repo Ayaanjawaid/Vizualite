@@ -48,23 +48,3 @@ The visualizations are displayed directly within the app.
 Download Filtered Data:
 
 After filtering the data, users can download the filtered dataset as a CSV file.
-
-
-Installation
-To run the Easy Data Viz app locally, follow these steps:
-
-Clone the repository:
-git clone https://github.com/yourusername/easy-data-viz.git
-cd easy-data-viz
-Install the required Python packages:
-
-
-pip install -r requirements.txt
-Run the Streamlit app:
-
-
-streamlit run app.py
-Open your browser and go to http://localhost:8501 to interact with the app.
-
-Contributing
-Contributions are welcome! Feel free to submit a pull request or open an issue to discuss any changes.
